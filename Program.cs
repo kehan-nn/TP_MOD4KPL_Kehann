@@ -1,5 +1,6 @@
 ﻿using System;
 using TP_MODUL4_103022400012;
+using TP_MODUL4_103022400097;
 
 class Program
 {
@@ -12,7 +13,10 @@ class Program
 
         Console.WriteLine("Kode Pos: " + kode.getKodePos(kelurahan));
 
-        
+        DoorMachine pintu = new DoorMachine();
+
+        pintu.BukaPintu();
+        pintu.KunciPintu();
     }
 
 }
